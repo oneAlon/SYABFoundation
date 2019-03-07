@@ -1,0 +1,6 @@
+framework module Pods_SYABFoundation_Tests {
+  umbrella header "Pods-SYABFoundation_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

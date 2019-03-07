@@ -1,0 +1,16 @@
+PODS:
+  - SYABFoundation (0.1.0)
+
+DEPENDENCIES:
+  - SYABFoundation (from `../`)
+
+EXTERNAL SOURCES:
+  SYABFoundation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SYABFoundation: 13fa174a4c9fae6a87df83bac42e029fb54783f8
+
+PODFILE CHECKSUM: dc7ab9d4af36f755879604de46350e3c8e30df48
+
+COCOAPODS: 1.6.1
