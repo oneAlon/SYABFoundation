@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SYABFoundation_Example' do
+  pod 'SYABFoundation', :path => '../'
+
+  target 'SYABFoundation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
