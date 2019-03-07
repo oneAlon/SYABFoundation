@@ -9,11 +9,18 @@
 /* Begin PBXBuildFile section */
 		132D96380101A5CB0557DC57FAEAB017 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		1ABD1339BBD0EC37B0F66C794A7F3E77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		33BBF9467EA3003074CCFCE24F84FACE /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4778911F84621D604D3CFAD276215FC /* ReplaceMe.swift */; };
 		55A801B3DF4BD57387AC52F2094593F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		594F2A73FFAAF12E6CD25C34C08F5D5F /* SYABFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FB05897A27127E5B11D3E61B8AF25D /* SYABFoundation-dummy.m */; };
 		60102BB1E8D5E22227B3BC234803A0D4 /* Pods-SYABFoundation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B27F7BC9DDA4E6D6D26B0978C2BD43 /* Pods-SYABFoundation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D40F1D6B805383301891573F3C15400 /* Pods-SYABFoundation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C530C0C34C3B984A0D8EC762544DA596 /* Pods-SYABFoundation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88581B682230F30D00804279 /* NSNotificationCenter+SYAB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88581B5B2230F30D00804279 /* NSNotificationCenter+SYAB.swift */; };
+		88581B692230F30D00804279 /* Date+SYAB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88581B5D2230F30D00804279 /* Date+SYAB.swift */; };
+		88581B6A2230F30D00804279 /* Dictionary+SYAB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88581B5F2230F30D00804279 /* Dictionary+SYAB.swift */; };
+		88581B6B2230F30D00804279 /* Data+SYAB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88581B612230F30D00804279 /* Data+SYAB.swift */; };
+		88581B6C2230F30D00804279 /* Character+SYAB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88581B632230F30D00804279 /* Character+SYAB.swift */; };
+		88581B6D2230F30D00804279 /* UnicodeScalar+SYAB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88581B642230F30D00804279 /* UnicodeScalar+SYAB.swift */; };
+		88581B6E2230F30D00804279 /* String+SXNB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88581B652230F30D00804279 /* String+SXNB.swift */; };
+		88581B6F2230F30D00804279 /* Array+SYAB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88581B672230F30D00804279 /* Array+SYAB.swift */; };
 		BDD172938FB4355CAAADCC783F1BE08C /* Pods-SYABFoundation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5E207D7C7358DA7894A0F4517E688C /* Pods-SYABFoundation_Example-dummy.m */; };
 		D66028989E34163826543FF7C90C281C /* Pods-SYABFoundation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF16A79FEF47E9E5DD526B7528893CB /* Pods-SYABFoundation_Tests-dummy.m */; };
 		EAA7787131CECC155E488AF25CE6D02C /* SYABFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C1C2CFC3682CCF1CA980C72D7CE1B21 /* SYABFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -58,10 +65,17 @@
 		6C7287718F660077730F5B8A0C464DEA /* SYABFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SYABFoundation.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		732F7D805707CE675B07EC50FAA3CC6C /* SYABFoundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SYABFoundation-Info.plist"; sourceTree = "<group>"; };
 		81D8D4E6E589F7B5E2BC86AF777594C1 /* Pods-SYABFoundation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYABFoundation_Example-frameworks.sh"; sourceTree = "<group>"; };
+		88581B5B2230F30D00804279 /* NSNotificationCenter+SYAB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSNotificationCenter+SYAB.swift"; sourceTree = "<group>"; };
+		88581B5D2230F30D00804279 /* Date+SYAB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+SYAB.swift"; sourceTree = "<group>"; };
+		88581B5F2230F30D00804279 /* Dictionary+SYAB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+SYAB.swift"; sourceTree = "<group>"; };
+		88581B612230F30D00804279 /* Data+SYAB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+SYAB.swift"; sourceTree = "<group>"; };
+		88581B632230F30D00804279 /* Character+SYAB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Character+SYAB.swift"; sourceTree = "<group>"; };
+		88581B642230F30D00804279 /* UnicodeScalar+SYAB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UnicodeScalar+SYAB.swift"; sourceTree = "<group>"; };
+		88581B652230F30D00804279 /* String+SXNB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+SXNB.swift"; sourceTree = "<group>"; };
+		88581B672230F30D00804279 /* Array+SYAB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+SYAB.swift"; sourceTree = "<group>"; };
 		901A5E2447AC17DC7EEC09631E9FE093 /* Pods_SYABFoundation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYABFoundation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5687FC23923A566DDABC12A81D34919 /* Pods-SYABFoundation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYABFoundation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B4778911F84621D604D3CFAD276215FC /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SYABFoundation/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		C530C0C34C3B984A0D8EC762544DA596 /* Pods-SYABFoundation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYABFoundation_Example-umbrella.h"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CDCC1C2B7D725A53DFA1134545E1880B /* Pods-SYABFoundation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYABFoundation_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -102,7 +116,12 @@
 		327CA0997BE9ECDAA8BCD1BCAA7ADFAF /* SYABFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				B4778911F84621D604D3CFAD276215FC /* ReplaceMe.swift */,
+				88581B662230F30D00804279 /* Array */,
+				88581B602230F30D00804279 /* Data */,
+				88581B5C2230F30D00804279 /* Date */,
+				88581B5E2230F30D00804279 /* Dictionary */,
+				88581B5A2230F30D00804279 /* NotificationCenter */,
+				88581B622230F30D00804279 /* String */,
 				6F461458AF55917455D55563805B44EB /* Pod */,
 				E446FA3E3128E502EA995228A04BFADD /* Support Files */,
 			);
@@ -144,6 +163,62 @@
 				CF26EA074BE141E40CB8B0DE00EB0CED /* Pods-SYABFoundation_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		88581B5A2230F30D00804279 /* NotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				88581B5B2230F30D00804279 /* NSNotificationCenter+SYAB.swift */,
+			);
+			name = NotificationCenter;
+			path = SYABFoundation/Classes/NotificationCenter;
+			sourceTree = "<group>";
+		};
+		88581B5C2230F30D00804279 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				88581B5D2230F30D00804279 /* Date+SYAB.swift */,
+			);
+			name = Date;
+			path = SYABFoundation/Classes/Date;
+			sourceTree = "<group>";
+		};
+		88581B5E2230F30D00804279 /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				88581B5F2230F30D00804279 /* Dictionary+SYAB.swift */,
+			);
+			name = Dictionary;
+			path = SYABFoundation/Classes/Dictionary;
+			sourceTree = "<group>";
+		};
+		88581B602230F30D00804279 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				88581B612230F30D00804279 /* Data+SYAB.swift */,
+			);
+			name = Data;
+			path = SYABFoundation/Classes/Data;
+			sourceTree = "<group>";
+		};
+		88581B622230F30D00804279 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				88581B632230F30D00804279 /* Character+SYAB.swift */,
+				88581B642230F30D00804279 /* UnicodeScalar+SYAB.swift */,
+				88581B652230F30D00804279 /* String+SXNB.swift */,
+			);
+			name = String;
+			path = SYABFoundation/Classes/String;
+			sourceTree = "<group>";
+		};
+		88581B662230F30D00804279 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				88581B672230F30D00804279 /* Array+SYAB.swift */,
+			);
+			name = Array;
+			path = SYABFoundation/Classes/Array;
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -364,7 +439,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33BBF9467EA3003074CCFCE24F84FACE /* ReplaceMe.swift in Sources */,
 				594F2A73FFAAF12E6CD25C34C08F5D5F /* SYABFoundation-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,7 +455,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88581B6B2230F30D00804279 /* Data+SYAB.swift in Sources */,
+				88581B6F2230F30D00804279 /* Array+SYAB.swift in Sources */,
+				88581B6E2230F30D00804279 /* String+SXNB.swift in Sources */,
+				88581B6A2230F30D00804279 /* Dictionary+SYAB.swift in Sources */,
+				88581B6C2230F30D00804279 /* Character+SYAB.swift in Sources */,
 				BDD172938FB4355CAAADCC783F1BE08C /* Pods-SYABFoundation_Example-dummy.m in Sources */,
+				88581B692230F30D00804279 /* Date+SYAB.swift in Sources */,
+				88581B6D2230F30D00804279 /* UnicodeScalar+SYAB.swift in Sources */,
+				88581B682230F30D00804279 /* NSNotificationCenter+SYAB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
